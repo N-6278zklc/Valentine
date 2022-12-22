@@ -1,0 +1,418 @@
+/*
+見出しトップ
+font-family: 'Kaisei Decol', serif;
+その他文字
+font-family: 'BIZ UDGothic', sans-serif;
+
+*/
+
+html {
+  font-size: 100%;
+  
+}
+
+body {
+  width: 100%;
+  /*height: 100%;*/
+  
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 4.5rem;
+  background: rgb(63, 47, 38, .9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-wrapper {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+}
+
+.header-wrapper h1 {
+  font-family: 'Kaisei Decol', serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 15px;
+  line-height: 1;
+}
+
+.header-wrapper nav {
+  padding-top: 10px;
+}
+
+nav {
+  vertical-align: middle;
+}
+
+nav ul {
+  display: flex;/*ナビメニュー横並び*/
+
+
+}
+
+li {
+  /*margin-right: 5px;*/
+  font-family: 'BIZ UDGothic', sans-serif;
+  font-size: 15px;
+}
+
+nav li {
+  margin-right: 5px;
+  background: #a0445d;
+  padding: 15px 5px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#hero {
+  width: 414px;
+  height: 650px;
+  padding: 0;
+  background-image: url(../img/25345198_m.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.top-wrapper {
+  width: 400px;
+  height: 70px;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 200px;
+  
+}
+
+.top-wrapper h1 {
+  width: 380px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Kaisei Decol', serif;
+  
+}
+
+.top-wrapper p {
+  font-size: 1rem;
+  color: #6f233f;
+  font-family: 'BIZ UDGothic', sans-serif;
+  font-weight: bold;
+  line-height: 2.4;
+  text-align: center;
+  
+}
+
+
+
+.top-wrapper h1,
+p {
+  
+  margin-bottom: 40px;
+
+}
+
+.top-block {
+  width: 370px;
+  height: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 190px;
+  margin: 0 auto;
+}
+
+.flex {
+  margin: 0 auto;
+}
+
+.left-wrapper {
+  width: 180px;
+  height: 10.5rem;
+  margin-top: 5rem;
+}
+
+.left-wrapper p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.right-wrapper {
+  height: 10.5rem;
+  background: #a0445d;
+  border-radius: 50%;
+  margin-bottom: 0.5px;
+  padding: 70px;
+  
+
+  font-family: 'Kaisei Decol', serif;
+}
+
+.right-wrapper p {
+  height: 60px;
+  width: 100%;
+  font-size: 1.55rem;
+  font-weight: bold;
+  
+}
+
+main {
+  height: 100%;
+}
+
+
+
+#season-lesson {
+  height: 1250px;
+  width: 414px;
+  margin-bottom: 12rem;
+}
+
+.sub-title {
+  font-size: 30px;
+  margin-bottom: 37px;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+img {
+  height: 300px;
+  width: 414px;
+  z-index: 2;
+}
+
+.lesson-grid {
+  position: relative;
+}
+
+.lesson-btn {
+  display: inline-block;
+  background-color: #e49087;
+  padding: 15px 15px;
+  font-family: 'BIZ UDGothic', sans-serif;
+  color: #fff;
+  position: absolute;
+  top: 180px;
+  right: 25px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.lesson-grid p {
+  margin-top: 30px;
+  line-height: 2;
+}
+
+
+
+.lesson-grid p span {
+  border-bottom: 5px solid #e49087;
+  font-size: 20px;
+}
+
+#lesson-Plan {
+  height: 1230px;
+}
+
+.plan-grid {
+  width: 100%;
+  
+}
+
+.plan-grid p {
+  margin-top: 30px;
+}
+
+.break {
+  margin: 0 auto;
+  width: 220px;
+  word-wrap: break-word;
+}
+
+.width {
+  width: 200px;
+}
+
+.plan-title {
+  font-size: 25px;
+  font-family: 'BIZ UDGothic', sans-serif;
+  margin-bottom: 15px;
+}
+
+/*
+口コミのところ
+*/
+
+#voice {
+  height: 1500px;
+}
+
+#voice h3 {
+  font-size: 30px;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.voice-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.voice-grid p {
+  width: 410px;
+  word-wrap: break-word;
+}
+
+.voice-name {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.voice-name p {
+  margin-bottom: 0;
+  font-family: 'BIZ UDGothic', sans-serif;
+  
+}
+
+.talk {
+  background-color: #b9e487;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  font-size: 12px;
+  font-family: 'BIZ UDGothic', sans-serif;
+  line-height: 2;
+  letter-spacing: 2;
+}
+
+.talk p {
+  letter-spacing: 10;
+}
+
+
+.voice-name img{
+  height: 25%;
+  width: 25%;
+  border-radius: 100%;
+}
+
+#popular {
+  width: 414px;
+  height: 1630px;
+}
+
+#popular h3 {
+  width: 350px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
+  padding: 20px 1px;
+  margin: 0 auto;
+}
+
+#popular .container {
+  margin: 0 auto;
+}
+
+.popular-block {
+  width: 400px;
+  margin: 20px auto;
+  padding: 12px 0;
+ box-shadow: 0 0 2rem rgba(0, 0, 0, .5); 
+}
+
+.popular-block h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.popular-block p {
+  width: 360px;
+  word-wrap: break-word; 
+  font-size: 18px;
+  font-family: 'BIZ UDGothic', sans-serif;
+  margin: 30px auto;
+}
+
+
+
+.size {
+  height: 200px;
+  width: 100px;
+}
+
+#time-line {
+  height: 600px;
+  margin-top: 350px;
+  margin-bottom: 900px;
+}
+
+.time-list img {
+  height: 250px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.time-line ol {
+  list-style: decimal inside;
+  font-family: 'BIZ UDGothic', sans-serif;
+  
+
+}
+
+#time-line .container h3 {
+  margin-bottom: 50px;
+}
+
+.timeline-block {
+  height: 320px;
+  width: 414px;
+}
+
+.time-list li p {
+  width: 300px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+
+#loca {
+  height: 800px;
+  margin-top: 500px;
+}
+
+#loca-btn p{
+  background: #a0445d;
+  padding: 20px 0;
+  margin: 1px auto;
+  color: #fff;
+}
+
+#footer {
+  width: 414px;
+  height: 80px;
+  background: #3F2F26;
+  color: #fff;
+  padding: 30px;
+}
+
+#footer p {
+  text-align: center;
+}
